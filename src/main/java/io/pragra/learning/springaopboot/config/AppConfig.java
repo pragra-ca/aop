@@ -13,7 +13,7 @@ import org.springframework.context.annotation.PropertySource;
 @Configuration
 public class AppConfig {
 
-    @Value("${make}")
+    @Value("${make:Honda}")
     private String make;
 
     @Value("${model}")
